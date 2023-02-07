@@ -9,3 +9,53 @@ reset
     padding: 0;
     box-sizing: border-box;
 }
+
+/* 
++++++++++++++++
+utility
++++++++++++++++
+*/
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.container-menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row{
+    flex-direction: column;
+}
+
+/* 
++++++++++++++++
+container menu
++++++++++++++++
+*/
+.playlist,
+.user,
+span{
+    display: none;
+}
+
+#container-big-menu{
+    background-color: black;
+    color: white;
+    position: fixed;
+    top: 0;
+    bottom: 90px;
+    left: 0;
+    
+}
+
+#container-big-menu .container-menu{
+    height: 100%;
+}
