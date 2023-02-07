@@ -117,14 +117,15 @@ esplora menu
     height: 100px;
 }
 
-
-#recent-play{
+#esplora-menu{
     background-color: pink;
+    
 }
 
 .lista-esplora{
     justify-content: center;
-    gap: 2.5rem;
+    gap: 70px;
     text-transform: uppercase;
     flex-wrap: wrap;
+    padding: 20px 15px
 }
