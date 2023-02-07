@@ -4,7 +4,7 @@ reset
 +++++++++++++++
 */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,22 +16,22 @@ utility
 +++++++++++++++
 */
 
-li{
+li {
     list-style-type: none;
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
 }
 
 
-.container-menu{
+.container-menu {
     display: flex;
     justify-content: space-between;
 }
 
-.row{
+.row {
     flex-direction: column;
 }
 
@@ -42,20 +42,28 @@ container menu
 */
 .playlist,
 .user,
-span{
+#container-big-menu span {
     display: none;
 }
 
-#container-big-menu{
+#container-big-menu {
     background-color: black;
     color: white;
     position: fixed;
     top: 0;
     bottom: 90px;
     left: 0;
-    
+
 }
 
-#container-big-menu .container-menu{
+#container-big-menu .container-menu {
     height: 100%;
+}
+
+@media screen and (min-width:552px) {
+    .playlist,
+    .user,
+    #container-big-menu span {
+        display: block;
+    }
 }
