@@ -5,15 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <title>Spotify Web</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
     <main>
-        <section id="container-big-menu">
-           <div class="container-menu row">
-            <div class="nav-menu">
+        <!-- sezione menu laterale  -->
+        <section class="container-big flex">
+            <div id="menu-container">
                 <div><a href="#">icona<span>logo</span></a></div>
                 <div class="menu">
                     <ul>
@@ -37,14 +45,21 @@
                         </ul>
                     </div>
                 </div>
+                <div class="user">
+                    <div><a href="#">installa app</a></div>
+                    <hr>
+                    <div>icona John Doe</div>
+                </div>
             </div>
-            <div class="user">
-                <div><a href="#">installa app</a></div>
-                <hr>
-                <div>icona John Doe</div>
+            <div id="content-container">
+                <div id="sez-upgrade">
+                    <button class="btn-up">Upgrade</button>
+                </div>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sed nulla quia tempora quo, enim, voluptatem, asperiores beatae voluptatibus laboriosam ratione modi voluptatum sunt quod voluptates ullam alias unde a? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur distinctio quos corporis dolor deserunt! Mollitia eos cumque accusantium adipisci, quia maiores explicabo laborum delectus, voluptatibus necessitatibus dolorem magni neque sequi?Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo obcaecati in mollitia repudiandae temporibus quas nostrum distinctio, expedita eaque vel impedit sequi maxime non pariatur voluptates recusandae. Iure, libero quae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus aut aliquam, est aliquid aperiam cupiditate maiores necessitatibus velit et nulla laborum beatae itaque quis amet eaque doloribus nostrum impedit nemo. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur voluptatem eius, sapiente voluptatibus, pariatur nisi porro laboriosam nam, cumque quod tempore vel natus velit. Reprehenderit aperiam esse corrupti quidem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dignissimos pariatur aliquam, ipsa assumenda alias, quisquam nisi consequatur consectetur eum in dolor earum doloribus ullam esse expedita numquam cum aperiam iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. At quidem, soluta ratione accusamus aut pariatur nam architecto doloribus deserunt vel ut alias illo adipisci odit quae recusandae obcaecati veritatis a?</p>
+
             </div>
-           </div>
         </section>
+        <!-- fine sezione menu laterale  -->
     </main>
     <footer></footer>
 </body>

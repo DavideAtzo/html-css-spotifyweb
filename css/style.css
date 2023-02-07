@@ -15,25 +15,24 @@ reset
 utility
 +++++++++++++++
 */
-
+body{
+    font-family: 'Montserrat', sans-serif;;
+}
 li {
     list-style-type: none;
 }
 
 a {
     text-decoration: none;
-    color: white;
 }
 
-
-.container-menu {
+.flex {
     display: flex;
-    justify-content: space-between;
 }
 
-.row {
-    flex-direction: column;
-}
+/* .row{
+    justify-content: space-between;
+} */
 
 /* 
 +++++++++++++++
@@ -41,29 +40,44 @@ container menu
 +++++++++++++++
 */
 .playlist,
-.user,
-#container-big-menu span {
+#menu-container span,
+.user {
     display: none;
 }
 
-#container-big-menu {
-    background-color: black;
-    color: white;
-    position: fixed;
-    top: 0;
-    bottom: 90px;
-    left: 0;
-
+#menu-container {
+    background-color: yellow;
+    max-width: 50px;
 }
 
-#container-big-menu .container-menu {
-    height: 100%;
+#content-container {
+    background-color: orange;
+    width: calc(100vw -50px);
+    height: 100vh;
+    overflow: auto;
 }
 
 @media screen and (min-width:552px) {
     .playlist,
-    .user,
-    #container-big-menu span {
+    #menu-container span,
+    .user {
         display: block;
     }
+    #menu-container {
+        max-width: 230px;
+    }
+    #content-container {
+        width: calc(100% -230px);
+    }
+}
+
+/* 
++++++++++++++++
+upgrade
++++++++++++++++
+*/
+
+#sez-upgrade{
+   background-color: green;
+   width: calc(100vw -50px);
 }
