@@ -16,8 +16,9 @@ utility
 +++++++++++++++
 */
 body{
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
 }
+
 li {
     list-style-type: none;
 }
@@ -30,54 +31,90 @@ a {
     display: flex;
 }
 
-/* .row{
+.row{
+    flex-direction: column;
+}
+.space-b{
     justify-content: space-between;
-} */
+}
 
 /* 
 +++++++++++++++
-container menu
+menu container
 +++++++++++++++
 */
+.large-container{
+    height: 100vh;
+}
+
+#menu-container{
+    width: 3.125rem;
+    height: 100%;
+    padding: 0 1.25rem;
+}
+
 .playlist,
 #menu-container span,
-.user {
+#menu-container hr
+{
     display: none;
 }
-
-#menu-container {
-    background-color: yellow;
-    max-width: 50px;
+#menu-container .menu li{
+    margin-bottom: .3125rem;
+}
+#menu-container .menu li:first-child{
+    margin-top: .3125rem;
 }
 
-#content-container {
-    background-color: orange;
-    width: calc(100vw -50px);
-    height: 100vh;
+#big-content-container{
+    width: calc(100% - 3.125rem);
     overflow: auto;
 }
 
 @media screen and (min-width:552px) {
     .playlist,
     #menu-container span,
-    .user {
+    #menu-container hr{
         display: block;
     }
     #menu-container {
         max-width: 230px;
     }
-    #content-container {
-        width: calc(100% -230px);
-    }
 }
 
 /* 
 +++++++++++++++
-upgrade
+content container
 +++++++++++++++
 */
 
 #sez-upgrade{
-   background-color: green;
-   width: calc(100vw -50px);
+    background-color: lightgreen;
+}
+/* 
++++++++++++++++
+esplora menu
++++++++++++++++
+*/
+
+.bottone{
+    justify-content: flex-end;
+}
+
+.box{
+    border: 2px solid red;
+    width: 100px;
+    height: 100px;
+}
+
+
+#recent-play{
+    background-color: pink;
+}
+
+.lista-esplora{
+    justify-content: center;
+    gap: 2.5rem;
+    text-transform: uppercase;
+    flex-wrap: wrap;
 }
