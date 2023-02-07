@@ -119,13 +119,46 @@ esplora menu
 
 #esplora-menu{
     background-color: pink;
-    
 }
 
 .lista-esplora{
     justify-content: center;
-    gap: 70px;
     text-transform: uppercase;
     flex-wrap: wrap;
-    padding: 20px 15px
+   
+}
+.lista-esplora li{
+    width: calc(100% / 4);
+    text-align: center;
+    padding: 10px;
+}
+
+@media screen and (min-width:552px) {
+    .lista-esplora li{
+        width: calc(100% / 3);
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width:640px) {
+    .lista-esplora li{
+        width: calc(100% / 5);
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+@media screen and (min-width:878px) {
+    .lista-esplora li{
+        width: 100%;
+        padding: 10px;
+    }
+    .lista-esplora{
+        flex-wrap: nowrap;
+    }
+    #menu-lista-esplora{
+        max-width: 650px;
+        margin: 0 auto;
+    }
 }
