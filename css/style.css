@@ -48,15 +48,17 @@ menu container
 .large-container {
     /* contenitore main  */
     height: calc(100vh - 90px);
+    
 }
 
 #menu-container {
     width: 50px;
-    height: calc(100vh - 90px);
     /* menu laterale  */
-    padding: 0 .625rem;
+    padding: 0 25px;
     background-color: black;
     align-items: center;
+    overflow: hidden;
+    height: 100%;
 }
 
 .playlist,
@@ -73,27 +75,30 @@ menu container
 #menu-container .menu li:first-child{
     margin-top: .3125rem;
 }
-#menu-container .menu .menu-spotify img
+#menu-container .menu .menu-spotify img,
+#menu-container .user img
 {
     width: 30px;
 }
-#menu-container .user ul li:first-child{
+#menu-container .user div:first-child img{
     width: 20px;
-    padding-left: 5px;
-    margin-bottom: 20px;
 }
 
-#menu-container .user ul li:last-child{
-    width: 25px;
+#menu-container .user .user-name{
+    padding: 5px;
     background-color: grey;
     border-radius: 50%;
-    padding: 5px;
 }
 
 .user{
     margin-top: auto;
     margin-bottom: 10px;
 }
+
+.user img{
+    margin-right: 5px;
+}
+
 
 #logo{
     margin-top: 5px;
@@ -107,6 +112,28 @@ span{
     padding: 5px;
 }
 
+#btn-playlist{
+    padding: 5px 10px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.scroll a{
+  padding: 15px 0;
+}
+
+.scroll-menu{
+   width: 12.5rem;
+   margin-top: 10px;
+}
+
+.scroll{
+    overflow-y: auto;          /* scroll menu  */
+}
+
+hr{
+    width: 11.25rem;
+    margin: 10px auto;
+}
 @media screen and (min-width:552px) {
 
     .playlist,
@@ -137,8 +164,6 @@ span{
         align-items: center;
     }
 }
-
-
 
 
 /* 
