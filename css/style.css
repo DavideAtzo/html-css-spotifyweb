@@ -163,12 +163,56 @@ esplora menu
 brani recenti
 +++++++++++++++
 */
-.track-box{
+#recent-play .track-box{
     flex-wrap: wrap;
 }
 
-.box{
+#recent-play .box{
     border: 2px solid red;
     width: calc(100% / 2);
     height: 100px;
+    padding: 10px;
+    text-align: center;
+}
+@media screen and (min-width:640px) {
+    #recent-play .box{
+        width: calc(100% / 4);
+    }
+    
+}
+
+@media screen and (min-width:878px) {
+    #recent-play .box{
+        width: 100%;
+    }
+    #recent-play .track-box{
+        flex-wrap: nowrap;
+    }
+}
+
+/* 
++++++++++++++++
+scelti per te
++++++++++++++++
+*/
+
+#scelti-per-te .box{
+        border: 2px solid red;
+        height: 100px;
+        padding: 10px;
+        text-align: center;
+}
+
+
+/* 
++++++++++++++++
+artisti popolari
++++++++++++++++
+*/
+
+#artisti-popolari .box{
+    border: 2px solid red;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
 }
