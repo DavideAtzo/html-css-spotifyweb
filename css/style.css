@@ -94,6 +94,7 @@ content container
     overflow: auto;
     background-color: #141922;
     position: relative;
+    color: white;
 }
 
 #sez-upgrade{
@@ -105,7 +106,7 @@ content container
     position: fixed;
     right: 0;
     top: 0;
-    left: 0;
+    left: 3.125rem;
 }
 
 
@@ -125,6 +126,9 @@ content container
 esplora menu
 +++++++++++++++
 */
+#esplora-menu{
+    margin-top: 5.625rem;
+}
 
 .lista-esplora{
     justify-content: center;
@@ -173,6 +177,8 @@ esplora menu
 brani recenti
 +++++++++++++++
 */
+
+
 #recent-play .track-box{
     flex-wrap: wrap;
 }
@@ -184,6 +190,8 @@ brani recenti
     padding: 10px;
     text-align: center;
 }
+
+
 @media screen and (min-width:640px) {
     #recent-play .box{
         width: calc(100% / 4);
@@ -226,6 +234,21 @@ artisti popolari
     padding: 10px;
     text-align: center;
 }
+
+/* 
++++++++++++++++++++++
+margini sezioni track
++++++++++++++++++++++
+*/
+
+#recent-play,
+#scelti-per-te,
+#artisti-popolari
+{
+    margin-top: 2.5rem;
+}
+
+
 /* 
 +++++++++++++++
 Footer
