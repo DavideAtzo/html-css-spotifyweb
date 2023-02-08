@@ -54,8 +54,9 @@ menu container
     width: 50px;
     height: calc(100vh - 90px);
     /* menu laterale  */
-    padding: 0 1.25rem;
+    padding: 0 .625rem;
     background-color: black;
+    align-items: center;
 }
 
 .playlist,
@@ -69,11 +70,42 @@ menu container
     /* spazi li menu laterale  */
 }
 
-#menu-container .menu li:first-child {
+#menu-container .menu li:first-child{
     margin-top: .3125rem;
 }
+#menu-container .menu .menu-spotify img
+{
+    width: 30px;
+}
+#menu-container .user ul li:first-child{
+    width: 20px;
+    padding-left: 5px;
+    margin-bottom: 20px;
+}
 
+#menu-container .user ul li:last-child{
+    width: 25px;
+    background-color: grey;
+    border-radius: 50%;
+    padding: 5px;
+}
 
+.user{
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+#logo{
+    margin-top: 5px;
+}
+
+#logo2{
+    width: 135px;
+    display: none;
+}
+span{
+    padding: 5px;
+}
 
 @media screen and (min-width:552px) {
 
@@ -85,12 +117,29 @@ menu container
 
     #menu-container {
         width: 230px;
+       align-items: flex-start;
+       padding: 0 .9375rem;
     }
 
     #big-content-container {
         width: calc(100% - 230px);
     }
+
+    #logo1{
+        display: none;
+    }
+    #logo2{
+        display: block;
+    }
+    .logo{
+        height: 90px;
+        display: flex;
+        align-items: center;
+    }
 }
+
+
+
 
 /* 
 +++++++++++++++
