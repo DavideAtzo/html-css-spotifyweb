@@ -44,12 +44,12 @@ menu container
 +++++++++++++++
 */
 .large-container{               /* contenitore main  */
-    height: 100vh;
+    height: calc(100vh - 90px);
 }
 
 #menu-container{
     width: 3.125rem;
-    height: 100%;              /* menu laterale  */
+    height: calc(100vh - 90px);            /* menu laterale  */
     padding: 0 1.25rem;
 }
 
@@ -215,4 +215,15 @@ artisti popolari
     height: 100px;
     padding: 10px;
     text-align: center;
+}
+/* 
++++++++++++++++
+Footer
++++++++++++++++
+*/
+
+footer{
+    height: 90px;
+    background-color: gold;
+    align-items: center;
 }
