@@ -371,6 +371,24 @@ h2,
 #scelti-per-te h5 {
     margin-top: .9375rem;
 }
+.box-img{
+    position: relative;
+}
+
+#hover-play{
+    font-size: 70px;
+    position: absolute;
+    display: none;
+    top: 50%;
+    left: 50%;
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 100%;
+    transform: translate(-50%, -50%);
+}
+
+.box-img:hover #hover-play{
+    display: block;
+}
 
 @media screen and (min-width:640px) {
     #recent-play .box {
