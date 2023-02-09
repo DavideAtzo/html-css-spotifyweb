@@ -166,14 +166,28 @@
                         <h5>Brano Nome</h5>
                     </div>
                     <div id="raccolta">
-                        <i class="fa-regular fa-heart"></i>
-                        <i class="fa-regular fa-folder"></i>
+                        <a href="#"><i class="fa-regular fa-heart"></i></a>
+                        <a href="#"><i class="fa-regular fa-folder"></i></a>
                     </div>
                 </div>
             </div>
         </div>
         <div id="canzone-in-play-center">
-            <div>play-stop</div>
+            <div id="commands-song">
+                <ul class="flex">
+                    <li><a href="#"><i class="fa-solid fa-shuffle"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-backward-step"></i></a></li>
+                    <li><a href="#"><i class="fa-regular fa-circle-play" id="play"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-forward-step"></i></a></li>
+                    <li><a href="#"><i class="fa-solid fa-arrow-rotate-right"></i></a></li>
+                </ul>
+            </div>
+            <div class="min-song flex space-b">
+                <div>0:25</div>
+                    <div class="bar small"></div>
+                    <div class="bar big"></div>
+                <div>4:35</div>
+            </div>
         </div>
         <div id="canzone-in-play-right">
             <div>volume</div>

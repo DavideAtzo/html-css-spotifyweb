@@ -363,12 +363,28 @@ footer {
     align-items: center;
     
 }
-
+#canzone-in-play-center,
 #canzone-in-play-left,
 #canzone-in-play-right{
-    width: 25%;
+    width: calc(100% / 3);
+}
+#canzone-in-play-center ul{
+    justify-content: center;
+    align-items: center;
 }
 
+#canzone-in-play-center ul li{
+    padding: 0.625rem;
+}
+#canzone-in-play-center ul li:nth-child(3){
+    font-size: 12px;
+    
+}
+
+#play{
+    font-size: 30px;
+    vertical-align: middle;
+}
 
 #canzone-in-play-left img{
     height: 30px;
@@ -383,4 +399,21 @@ footer {
 }
 #raccolta{
     padding-left: 20px;
+}
+
+.bar{
+    height: 4px;
+    background-color: #5A5A5A;
+    flex-grow: 3;
+    margin: .625rem .9375rem 0 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.bar.small {
+    flex-grow: 1;
+    background-color: #C1C1C1;
+    margin: .625rem 0 0 .9375rem;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: relative;
 }
