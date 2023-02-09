@@ -403,6 +403,7 @@ footer {
 
 #canzone-in-play-right{
     padding-left: 10px;
+    justify-content: flex-end;
 }
 
 .bar{
@@ -415,10 +416,12 @@ footer {
 }
 .bar.small {
     flex-grow: 1;
+    max-width: 30px;
     background-color: #C1C1C1;
     margin: .625rem 0 0 .9375rem;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    position: relative;
 }
 
 #canzone-in-play-right .bar{
@@ -437,4 +440,23 @@ footer {
     margin: .625rem 0 0 .9375rem;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+}
+
+.hover-ball {
+    background-color: yellowgreen;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    top: -5px;
+    display: none;
+}
+
+.min-song:hover .hover-ball{
+    display: block;
+}
+
+.bar-vol:hover .hover-ball{
+    display: block;
 }
