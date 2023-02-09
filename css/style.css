@@ -425,12 +425,14 @@ footer {
     height: 4px;
     background-color: #5A5A5A;
     flex-grow: 3;
+    max-width: 120px;
     margin: .625rem .9375rem 0 0;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
 #canzone-in-play-right .bar.small{
     flex-grow: 1;
+    max-width: 30px;
     background-color: #C1C1C1;
     margin: .625rem 0 0 .9375rem;
     border-top-left-radius: 20px;
