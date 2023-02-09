@@ -358,6 +358,29 @@ Footer
 
 footer {
     height: 90px;
-    background-color: gold;
+    background-color: #282828;
+    color: white;
     align-items: center;
+    
+}
+
+#canzone-in-play-left,
+#canzone-in-play-right{
+    width: 25%;
+}
+
+
+#canzone-in-play-left img{
+    height: 30px;
+    width: 30px;
+}
+
+#nome-brano-play{
+    padding-left: 10px;
+}
+#canzone-in-play-left .box{
+    align-items: center;
+}
+#raccolta{
+    padding-left: 20px;
 }
