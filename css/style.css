@@ -90,7 +90,11 @@ menu container
     background-color: grey;
     border-radius: 50%;
 }
-
+.playlist h4{
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
 .user{
     margin-top: auto;
     margin-bottom: 10px;
@@ -99,6 +103,7 @@ menu container
 .user img{
     margin-right: 5px;
 }
+
 
 
 #logo1{
@@ -284,7 +289,7 @@ brani recenti
 
 #recent-play .track-box {
     flex-wrap: wrap;
-    margin-top: 20px;
+   
 }
 
 #recent-play .box {
@@ -296,6 +301,12 @@ brani recenti
 h2{
     padding-left: 5px;
 }
+#artisti-popolari .track-box,
+#recent-play .track-box,
+#scelti-per-te .box{
+    margin-top: 20px;
+}
+
 
 @media screen and (min-width:640px) {
     #recent-play .box {
@@ -317,9 +328,7 @@ scelti per te
 */
 
 #scelti-per-te .box {
-    border: 2px solid red;
-    height: 100px;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
 }
 
@@ -330,13 +339,14 @@ artisti popolari
 +++++++++++++++
 */
 
+
 #artisti-popolari .box {
-    border: 2px solid red;
-    height: 100px;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
 }
-
+#artisti-popolari .box img{
+    border-radius: 50%;
+}
 /* 
 +++++++++++++++++++++
 margini sezioni track
