@@ -376,9 +376,9 @@ footer {
 #canzone-in-play-center ul li{
     padding: 0.625rem;
 }
+#canzone-in-play-right i,
 #canzone-in-play-center ul li:nth-child(3){
     font-size: 12px;
-    
 }
 
 #play{
@@ -401,6 +401,10 @@ footer {
     padding-left: 20px;
 }
 
+#canzone-in-play-right{
+    padding-left: 10px;
+}
+
 .bar{
     height: 4px;
     background-color: #5A5A5A;
@@ -415,5 +419,20 @@ footer {
     margin: .625rem 0 0 .9375rem;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    position: relative;
+}
+
+#canzone-in-play-right .bar{
+    height: 4px;
+    background-color: #5A5A5A;
+    flex-grow: 3;
+    margin: .625rem .9375rem 0 0;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#canzone-in-play-right .bar.small{
+    flex-grow: 1;
+    background-color: #C1C1C1;
+    margin: .625rem 0 0 .9375rem;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
