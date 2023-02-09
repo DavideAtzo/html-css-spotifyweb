@@ -249,8 +249,26 @@ esplora menu
 }
 .lista-esplora li{
     padding: .625rem;
+    position: relative;
+}
+.lista-esplora li a{
     opacity: 0.5;
 }
+
+.green-hover{
+    background-color: yellowgreen;
+    height: 3px;
+    width: 30px;
+    border-radius: 20px;
+    margin-left: 40px;
+    display: none;
+    position: absolute;
+    opacity: inherit;
+}
+.lista-esplora li:hover .green-hover{
+    display: block;
+}
+
 
 /* 
 +++++++++++++++
