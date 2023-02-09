@@ -81,7 +81,8 @@ menu container
     width: 30px;
 }
 #menu-container .user div:first-child img{
-    width: 20px;
+    width: 25px;
+    padding-bottom: 5px;
 }
 
 #menu-container .user .user-name{
@@ -100,7 +101,7 @@ menu container
 }
 
 
-#logo{
+#logo1{
     margin-top: 5px;
 }
 
@@ -288,10 +289,13 @@ brani recenti
 
 #recent-play .box {
     width: calc(100% / 2);
-    padding: 10px;
+    padding: 5px;
     text-align: center;
 }
 
+h2{
+    padding-left: 5px;
+}
 
 @media screen and (min-width:640px) {
     #recent-play .box {
