@@ -245,9 +245,11 @@ esplora menu
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    padding-top: .625rem;
 }
 .lista-esplora li{
     padding: .625rem;
+    opacity: 0.5;
 }
 
 /* 
@@ -270,7 +272,10 @@ brani recenti
     text-align: center;
 }
 
-h2{
+h2,
+#artisti-popolari h5,
+#recent-play  h5,
+#scelti-per-te h5{
     padding-left: 5px;
 }
 #artisti-popolari .track-box,
@@ -279,7 +284,20 @@ h2{
     margin-top: 20px;
 }
 
-
+#artisti-popolari .track-box h3,
+#recent-play .track-box h3,
+#scelti-per-te .box h3{
+    margin: .3125rem 0;
+}
+#artisti-popolari h5,
+#recent-play  h5,
+#scelti-per-te h5{
+    opacity: 0.5;
+}
+#artisti-popolari h5,
+#scelti-per-te h5{
+    margin-top: .9375rem;
+}
 @media screen and (min-width:640px) {
     #recent-play .box {
         width: calc(100% / 4);
