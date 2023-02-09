@@ -61,6 +61,18 @@ menu container
     height: 100%;
 }
 
+.menu-spotify,
+.playlist,
+.user div:first-child span{
+    opacity: 0.5;
+}
+.menu-spotify:hover,
+.playlist:hover,
+.user div:first-child span:hover{
+    opacity: 1;
+}
+
+
 .playlist,
 #menu-container span,
 #menu-container hr {
@@ -90,6 +102,8 @@ menu container
     background-color: grey;
     border-radius: 50%;
 }
+
+
 .playlist h4{
     color: white;
     margin-top: 20px;
@@ -272,7 +286,9 @@ esplora menu
     display: block;
 }
 
-
+.lista-esplora li a:hover{
+   opacity: 1;
+}
 /* 
 +++++++++++++++
 brani recenti
