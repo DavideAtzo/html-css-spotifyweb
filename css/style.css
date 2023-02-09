@@ -215,6 +215,7 @@ upgrade
     padding: .625rem 2.1875rem;
     border-radius: 1.25rem;
     background-color: rgb(8, 11, 18);
+    margin-right: 20px;
 }
 
 #white-btn-upgrade {
@@ -260,10 +261,12 @@ esplora menu
     height: 3px;
     width: 30px;
     border-radius: 20px;
-    margin-left: 40px;
     display: none;
     position: absolute;
     opacity: inherit;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
 }
 .lista-esplora li:hover .green-hover{
     display: block;
@@ -387,7 +390,7 @@ footer {
     width: calc(100% / 3);
 }
 #canzone-in-play-center ul{
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -477,4 +480,10 @@ footer {
 
 .bar-vol:hover .hover-ball{
     display: block;
+}
+@media screen and (min-width:640px) {
+    #canzone-in-play-center ul li{
+    
+    }
+
 }
