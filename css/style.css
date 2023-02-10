@@ -473,7 +473,9 @@ footer {
 #canzone-in-play-right{
     width: 30%;
 }
-
+#canzone-in-play-left .track-box{
+    padding-left: 10px;
+}
 #canzone-in-play-center ul {
     justify-content: center;
     align-items: center;
