@@ -55,7 +55,7 @@ menu container
 #menu-container {
     width: 50px;
     /* menu laterale  */
-    padding: 0 25px;
+    padding: 0 1.5625rem;
     background-color: black;
     align-items: center;
     overflow: hidden;
@@ -97,11 +97,11 @@ menu container
 
 #menu-container .user div:first-child img {
     width: 25px;
-    padding-bottom: 5px;
+    padding-bottom: .3125rem;
 }
 
 #menu-container .user .user-name {
-    padding: 5px;
+    padding: .3125rem;
     background-color: grey;
     border-radius: 50%;
 }
@@ -109,23 +109,21 @@ menu container
 
 .playlist h4 {
     color: white;
-    margin-top: 20px;
-    margin-bottom: 10px;
+    margin-top: 1.25rem;
+    margin-bottom: .625rem;
 }
 
 .user {
     margin-top: auto;
-    margin-bottom: 10px;
+    margin-bottom: .625rem;
 }
 
 .user img {
-    margin-right: 5px;
+    margin-right: .3125rem;
 }
 
-
-
 #logo1 {
-    margin-top: 5px;
+    margin-top: .3125rem;
 }
 
 #logo2 {
@@ -134,7 +132,7 @@ menu container
 }
 
 span {
-    padding: 5px;
+    padding: .3125rem;
 }
 .menu-spotify{
     position: relative;
@@ -143,7 +141,7 @@ span {
     background-color: yellowgreen;
     height: 30px;
     width: 3px;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     display: none;
     position: absolute;
     opacity: inherit;
@@ -157,7 +155,7 @@ span {
 }
 
 #btn-playlist {
-    padding: 5px 10px;
+    padding: .3125rem .625rem;
     font-size: 30px;
     font-weight: 600;
 }
@@ -167,7 +165,7 @@ span {
 }
 
 .playlist {
-    margin-top: 10px;
+    margin-top: .625rem;
     overflow-y: hidden;
     flex-grow: 1;
     min-height: 100px;
@@ -175,9 +173,9 @@ span {
 
 .scroll {
     flex-grow: 1;
-    overflow-y: auto;
+    overflow-y: auto;            /* scroll menu  */
     margin-top: 5px;
-    /* scroll menu  */
+   
 }
 
 hr {
@@ -186,7 +184,6 @@ hr {
 }
 
 @media screen and (min-width:552px) {
-
     #menu-container span,
     #menu-container hr {
         display: block;
@@ -230,7 +227,7 @@ content container
 */
 #big-content-container {
     /* contenitore content main  */
-    padding: 0 35px 0 10px;
+    padding: 0 2.1875rem 0 .625rem;
     overflow: auto;
     background-color: #141922;
     color: white;
@@ -261,7 +258,7 @@ upgrade
     padding: .625rem 2.1875rem;
     border-radius: 1.25rem;
     background-color: rgb(8, 11, 18);
-    margin-right: 20px;
+    margin-right: 1.25rem;
 }
 
 #white-btn-upgrade {
@@ -341,7 +338,7 @@ brani recenti
 
 #recent-play .box {
     width: calc(100% / 2);
-    padding: 5px;
+    padding: .3125rem;
     text-align: center;
 }
 
@@ -349,13 +346,13 @@ h2,
 #artisti-popolari h5,
 #recent-play h5,
 #scelti-per-te h5 {
-    padding-left: 5px;
+    padding-left: .3125rem;
 }
 
 #artisti-popolari .track-box,
 #recent-play .track-box,
 #scelti-per-te .box {
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 #artisti-popolari .track-box h3,
@@ -416,7 +413,7 @@ scelti per te
 }
 
 #scelti-per-te .box {
-    padding: 5px;
+    padding: .3125rem;
     text-align: center;
 }
 
@@ -432,7 +429,7 @@ artisti popolari
 
 
 #artisti-popolari .box {
-    padding: 5px;
+    padding: .3125rem;
     text-align: center;
 }
 
@@ -494,7 +491,7 @@ footer {
 #play {
     font-size: 30px;
     vertical-align: middle;
-    margin: 0 10px;
+    margin: 0 .625rem;
     font: 40px;
 }
 
@@ -504,7 +501,7 @@ footer {
 }
 
 #nome-brano-play {
-    padding-left: 10px;
+    padding-left: .625rem;
 }
 
 #canzone-in-play-left .box {
@@ -512,11 +509,11 @@ footer {
 }
 
 #raccolta {
-    padding-left: 20px;
+    padding-left: 1.25rem;
 }
 
 #canzone-in-play-right {
-    padding-left: 10px;
+    padding-left: .625rem;
     justify-content: flex-end;
 }
 .min-song{
