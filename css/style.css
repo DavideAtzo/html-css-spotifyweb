@@ -142,11 +142,14 @@ span {
 .green-hover-menu{
     background-color: yellowgreen;
     height: 30px;
-    width: 2px;
+    width: 3px;
     border-radius: 20px;
     display: none;
     position: absolute;
     opacity: inherit;
+    left: 0;
+    right: 0;
+
 }
 
 .menu-spotify li:hover .green-hover-menu {
@@ -408,6 +411,9 @@ h2,
 scelti per te
 +++++++++++++++
 */
+#scelti-per-te{
+    width: calc(100% / 2);
+}
 
 #scelti-per-te .box {
     padding: 5px;
@@ -420,6 +426,9 @@ scelti per te
 artisti popolari
 +++++++++++++++
 */
+#artisti-popolari{
+    width: calc(100% / 2);
+}
 
 
 #artisti-popolari .box {
@@ -463,10 +472,6 @@ footer {
 #canzone-in-play-left,
 #canzone-in-play-right{
     width: 30%;
-}
-
-.track-box{
-    padding-left: 10px;
 }
 
 #canzone-in-play-center ul {
